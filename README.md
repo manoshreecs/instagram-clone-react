@@ -11,7 +11,7 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 - **Stories**: Clickable story carousel with navigation between stories.
 - **Profile Page**: View your profile and list of followers.
 - **Suggestions**: Suggested users to follow with Follow/Unfollow functionality.
-- **Responsive Layout**: Designed to adapt to different screen sizes.
+- **Responsive Layout**: Works well on desktop and mobile screens.
 - **Modern UI**: Styled with Bootstrap 5 and custom CSS.
 
 ---
@@ -29,3 +29,56 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 
 ## 📁 Project Structure
 
+instagram-clone-react/
+├─ public/ # Static files
+├─ src/
+│ ├─ assets/ # Images (logo, story images, icons)
+│ ├─ Components/ # React components
+│ │ ├─ Feed.jsx
+│ │ ├─ Posts.jsx
+│ │ ├─ Stories.jsx
+│ │ ├─ Sidebar.jsx
+│ │ └─ Suggestions.jsx
+│ ├─ App.jsx # Main app component
+│ ├─ Profile.jsx # Profile page component
+│ ├─ Viewstory.jsx # Story view component
+│ ├─ ProfileContext.jsx # Context for profile and followers
+│ ├─ index.css # Global styles
+│ └─ main.jsx # App entry point
+├─ db/ # Mock JSON data (posts, story, suggestions)
+├─ package.json
+├─ package-lock.json
+├─ vite.config.js
+└─ README.md
+
+yaml
+Copy code
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/instagram-clone-react.git
+cd instagram-clone-react
+Install dependencies
+
+bash
+Copy code
+npm install
+Start JSON server
+
+bash
+Copy code
+npx json-server --watch db/dbs.json --port 3000
+Start the React app
+
+bash
+Copy code
+npm run dev
+Open in browser
+
+React app: http://localhost:5173
+
+JSON server: http://localhost:3000
