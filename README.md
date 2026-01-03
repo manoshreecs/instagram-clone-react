@@ -29,7 +29,7 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 
 ## 📁 Project Structure
 
-~~~instagram-clone-react/
+```instagram-clone-react/
 ├─ public/ # Static files
 ├─ src/
 │ ├─ assets/ # Images (logo, story images, icons)
@@ -49,7 +49,7 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 ├─ package.json
 ├─ package-lock.json
 ├─ vite.config.js
-└─ README.md~~~
+└─ README.md```
 
 ---
 
