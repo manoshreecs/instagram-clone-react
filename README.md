@@ -49,7 +49,8 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 ├─ package.json
 ├─ package-lock.json
 ├─ vite.config.js
-└─ README.md```
+└─ README.md
+```
 
 ---
 
