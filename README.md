@@ -1,8 +1,9 @@
-# Instagram Clone - React Project
+# Instagram Clone (React)
 
-A fully functional **Instagram clone** built with **React**, **Bootstrap 5**, and **React Router**.  
-This project demonstrates the core features of Instagram, including Stories, Posts, Followers, and Suggestions.
+A **frontend Instagram clone** built with **React**, **Bootstrap 5**, and **React Router**.  
+This project demonstrates the **core Instagram-like UI and interactions**, including **Stories, Posts, Followers, and Suggestions**, using **mock JSON data**.  
 
+> ⚠️ Note: This is a **frontend simulation** and does not have backend authentication or real-time features.
 ---
 
 ## 🌟 Features
