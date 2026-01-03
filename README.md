@@ -29,7 +29,7 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 
 ## 📁 Project Structure
 
-instagram-clone-react/
+~~~instagram-clone-react/
 ├─ public/ # Static files
 ├─ src/
 │ ├─ assets/ # Images (logo, story images, icons)
@@ -49,10 +49,7 @@ instagram-clone-react/
 ├─ package.json
 ├─ package-lock.json
 ├─ vite.config.js
-└─ README.md
-
-yaml
-Copy code
+└─ README.md~~~
 
 ---
 
@@ -64,18 +61,12 @@ git clone https://github.com/YOUR_USERNAME/instagram-clone-react.git
 cd instagram-clone-react
 Install dependencies
 
-bash
-Copy code
 npm install
 Start JSON server
 
-bash
-Copy code
 npx json-server --watch db/dbs.json --port 3000
 Start the React app
 
-bash
-Copy code
 npm run dev
 Open in browser
 
