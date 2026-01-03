@@ -64,5 +64,3 @@ This project demonstrates the **core Instagram-like UI and interactions**, inclu
 
 
 
-```
-JSON server: http://localhost:3000
