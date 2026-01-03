@@ -28,49 +28,40 @@ This project demonstrates the core features of Instagram, including Stories, Pos
 ---
 
 ## 📁 Project Structure
+```INSTAGRAM_CLONE
+│
+├── Instagram
+│ │
+│ ├── db
+│ │ └── dbs.json
+│ │
+│ ├── node_modules
+│ │
+│ ├── public_assets
+│ │ ├── coffee.png
+│ │ ├── sunny.png
+│ │ └── working.png
+│ │
+│ ├── src
+│ │ ├── assets
+│ │ │
+│ │ ├── App.css
+│ │ ├── App.jsx
+│ │ ├── feed.jsx
+│ │ ├── index.css
+│ │ ├── main.jsx
+│ │ ├── Posts.jsx
+│ │ ├── Profile.jsx
+│ │ ├── ProfileContext.jsx
+│ │ ├── Sidebar.jsx
+│ │ ├── Stories.jsx
+│ │ ├── suggestions.jsx
+│ │ └── Viewstory.jsx
+│ │
+│ └── .gitignore ```
 
-```instagram-clone-react/
-├─ public/ # Static files
-├─ src/
-│ ├─ assets/ # Images (logo, story images, icons)
-│ ├─ Components/ # React components
-│ │ ├─ Feed.jsx
-│ │ ├─ Posts.jsx
-│ │ ├─ Stories.jsx
-│ │ ├─ Sidebar.jsx
-│ │ └─ Suggestions.jsx
-│ ├─ App.jsx # Main app component
-│ ├─ Profile.jsx # Profile page component
-│ ├─ Viewstory.jsx # Story view component
-│ ├─ ProfileContext.jsx # Context for profile and followers
-│ ├─ index.css # Global styles
-│ └─ main.jsx # App entry point
-├─ db/ # Mock JSON data (posts, story, suggestions)
-├─ package.json
-├─ package-lock.json
-├─ vite.config.js
-└─ README.md
+
+
+
 ```
-
----
-
-## 🚀 How to Run Locally
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/instagram-clone-react.git
-cd instagram-clone-react
-Install dependencies
-
-npm install
-Start JSON server
-
-npx json-server --watch db/dbs.json --port 3000
-Start the React app
-
-npm run dev
-Open in browser
-
-React app: http://localhost:5173
-
 JSON server: http://localhost:3000
