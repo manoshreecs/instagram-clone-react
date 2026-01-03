@@ -59,7 +59,7 @@ This project demonstrates the **core Instagram-like UI and interactions**, inclu
 │ │ ├── suggestions.jsx
 │ │ └── Viewstory.jsx
 │ │
-│ └── .gitignore ```
+│ └── .gitignore 
 
 
 
