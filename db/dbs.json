@@ -1,0 +1,108 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "userAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "postImage": "https://picsum.photos/600/600?random=1",
+      "caption": "Enjoying the sunny day ☀️",
+      "likes": 124,
+      "time": "2 hours ago"
+    },
+    {
+      "id": "2",
+      "username": "emma_watson",
+      "userAvatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "postImage": "https://picsum.photos/600/600?random=2",
+      "caption": "Coffee first ☕",
+      "likes": 256,
+      "time": "5 hours ago"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "goms-io",
+    "userAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "followers": [
+      {
+        "id": "1",
+        "username": "emma_watson",
+        "userAvatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      {
+        "id": "2",
+        "username": "tech_info",
+        "userAvatar": "https://randomuser.me/api/portraits/men/65.jpg"
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "emma_watson",
+      "userAvatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "2",
+      "username": "tech_info",
+      "userAvatar": "https://randomuser.me/api/portraits/men/65.jpg"
+    },
+    {
+      "id": "3",
+      "username": "travelwithme",
+      "userAvatar": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "id": "4",
+      "username": "fitness_freak",
+      "userAvatar": "https://randomuser.me/api/portraits/men/78.jpg"
+    },
+    {
+      "id": "5",
+      "username": "foodie_life",
+      "userAvatar": "https://randomuser.me/api/portraits/women/67.jpg"
+    },
+    {
+      "id": "6",
+      "username": "artsy_soul",
+      "userAvatar": "https://randomuser.me/api/portraits/men/81.jpg"
+    },
+    {
+      "id": "7",
+      "username": "music_vibes",
+      "userAvatar": "https://randomuser.me/api/portraits/women/72.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "userAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "image": "/assets/sunny.png"
+    },
+    {
+      "id": "2",
+      "username": "emma_watson",
+      "userAvatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "image": "/assets/coffeee.png"
+    },
+    {
+      "id": "3",
+      "username": "travelwithme",
+      "userAvatar": "https://randomuser.me/api/portraits/women/50.jpg",
+      "image": "/assets/working.png"
+    },
+    {
+      "id": "4",
+      "username": "fitness_freak",
+      "userAvatar": "https://randomuser.me/api/portraits/men/78.jpg",
+      "image": "/assets/sunny.png"
+    },
+    {
+      "id": "5",
+      "username": "foodie_life",
+      "userAvatar": "https://randomuser.me/api/portraits/women/67.jpg",
+      "image": "/assets/coffeee.png"
+    }
+  ]
+}
