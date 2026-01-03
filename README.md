@@ -1,16 +1,31 @@
-# React + Vite
+# Instagram Clone - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **Instagram clone** built with **React**, **Bootstrap 5**, and **React Router**.  
+This project demonstrates the core features of Instagram, including Stories, Posts, Followers, and Suggestions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- **Home Feed**: View posts with images, captions, and likes.
+- **Stories**: Clickable story carousel with navigation between stories.
+- **Profile Page**: View your profile and list of followers.
+- **Suggestions**: Suggested users to follow with Follow/Unfollow functionality.
+- **Responsive Layout**: Designed to adapt to different screen sizes.
+- **Modern UI**: Styled with Bootstrap 5 and custom CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Frontend library for building UI components
+- **React Router** - Routing between Home, Profile, and Story pages
+- **Bootstrap 5** - Responsive UI and icons
+- **React Context API** - State management for profile, followers, and suggestions
+- **Vite** - Fast development and build tool
+- **JSON server** - Local mock API for posts, stories, and suggestions
+
+---
+
+## 📁 Project Structure
+
